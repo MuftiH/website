@@ -1,0 +1,65 @@
+/* Set a nice background color */
+body {
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "arial", sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+/* Center the main content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add some style to headings */
+h1, h2, h3 {
+  font-weight: lighter;
+}
+
+/* Style links */
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.content li {
+  /* add space under each bullet */
+  margin-bottom: 20px;
+}
+
+.vertical-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 20px;
+  text-align: right;
+}
+
+.vertical-navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-navbar li {
+  display: block;
+}
+
+.vertical-navbar li:last-child {
+  margin-bottom: 0;
+}
